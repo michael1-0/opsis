@@ -2,9 +2,9 @@
 
 TBD
 
-Use these prefixes for commit naming:
+Gunakan prefiks berikut untuk penamaan commit:
 
-- `feat` for features
-- `fix` for fixes
-- `chore` for chores
-- `docs` for documentations
+- `feat` untuk fitur
+- `fix` untuk perbaikan
+- `chore` untuk pekerjaan rutin/tugas
+- `docs` untuk dokumentasi

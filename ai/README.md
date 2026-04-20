@@ -1,1 +1,1 @@
-This is where AI Engineers live.
+Di sini para AI Engineer tinggal.

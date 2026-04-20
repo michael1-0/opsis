@@ -1,1 +1,1 @@
-This is where full-stack web developers live.
+Di sini para Full-stack Web Developer tinggal.

@@ -1,1 +1,1 @@
-This is where Data Scientists live.
+Di sini para Data Scientist tinggal.
