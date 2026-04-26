@@ -51,6 +51,5 @@ docs: perbaru konvensi commit dan panduan
 Pekerjaan rutin:
 
 ```
-Copy
 chore: upgrade tensorflow ke v4.15.0
 ```
