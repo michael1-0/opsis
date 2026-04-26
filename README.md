@@ -1,4 +1,4 @@
-# Opsis
+# Opsis (WORK IN PROGRESS)
 
 Glaukoma merupakan salah satu penyebab kebutaan permanen terbesar di dunia yang kerap tidak terdeteksi hingga stadium lanjut karena minimnya gejala awal yang dirasakan penderita. Di Indonesia, akses terhadap pemeriksaan mata yang terjangkau dan merata masih menjadi tantangan besar, sehingga banyak kasus baru teridentifikasi ketika kerusakan saraf optik sudah signifikan. Kondisi ini mendorong urgensi hadirnya solusi deteksi dini dan preventif progresivitas tingkat glaukoma yang mudah diakses oleh masyarakat umum.
 
