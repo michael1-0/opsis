@@ -12,18 +12,20 @@ export const routes = [
         Component: React.lazy(() => import("./pages/index")),
       },
       {
-        path: "a",
-        Component: React.lazy(() => import("./pages/a")),
+        path: "tentang",
+        Component: React.lazy(() => import("./pages/tentang")),
       },
       {
-        path: "nest/*",
-        lazy: async () => {
-          await import("./components/load-comp-1");
-          return {
-            Component: (await import("./pages/nest/[b]")).Component,
-          };
-        },
-        getStaticPaths: () => ["nest/b1", "nest/b2"],
+        path: "gejala",
+        Component: React.lazy(() => import("./pages/gejala")),
+      },
+      {
+        path: "pengobatan",
+        Component: React.lazy(() => import("./pages/pengobatan")),
+      },
+      {
+        path: "riset",
+        Component: React.lazy(() => import("./pages/riset")),
       },
     ],
   },
