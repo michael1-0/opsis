@@ -1,13 +1,16 @@
 @import "tailwindcss";
 
-@layer base {
-  body {
-    @apply bg-white text-zinc-900 antialiased selection:bg-zinc-100 font-sans;
-  }
+@theme {
+  --color-primary: #003461;
+  --color-primary-hover: #004B87;
+  --color-accent: #d3e4ff;
+
+  --font-lexend: 'Lexend', sans-serif;
+  --font-public-sans: 'Public Sans', sans-serif;
 }
 
-@layer components {
-  .btn-minimal {
-    @apply px-3 py-1.5 border border-zinc-200 rounded text-sm hover:bg-zinc-50 transition-colors active:bg-zinc-100 font-sans;
+@layer base {
+  body {
+    @apply bg-[#fcf9f8] text-[#1c1b1b] antialiased selection:bg-[#d3e4ff] font-lexend;
   }
 }
