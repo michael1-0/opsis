@@ -2,11 +2,11 @@
 
 @theme {
   --color-primary: #003461;
-  --color-primary-hover: #004B87;
+  --color-primary-hover: #004b87;
   --color-accent: #d3e4ff;
 
-  --font-lexend: 'Lexend', sans-serif;
-  --font-public-sans: 'Public Sans', sans-serif;
+  --font-lexend: "Lexend", sans-serif;
+  --font-public-sans: "Public Sans", sans-serif;
 }
 
 @layer base {
