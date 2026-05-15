@@ -1,46 +1,45 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
-    <main className="flex-grow w-full">
+    <main className="grow w-full">
       <section
         aria-labelledby="hero-heading"
         className="relative bg-white pt-20 pb-32 overflow-hidden"
       >
-        <div className="max-w-[1100px] mx-auto px-8 grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-275 mx-auto px-8 grid md:grid-cols-2 gap-12 items-center">
           <div className="z-10">
             <h1
-              className="font-['Public_Sans'] font-bold text-[#003461] mb-6 leading-tight text-4xl md:text-5xl"
+              className="font-['Public_Sans'] font-bold text-primary mb-6 leading-tight text-4xl md:text-5xl"
               id="hero-heading"
             >
               Pahami Glaukoma dengan Opsis
             </h1>
             <p className="font-['Lexend'] text-xl text-slate-700 mb-10 max-w-lg leading-relaxed">
-              Sering disebut sebagai "si pencuri penglihatan", Glaukoma merusak
-              saraf mata secara perlahan tanpa rasa sakit. Pahami risikonya,
-              lakukan skrining rutin, dan jaga kejernihan pandangan Anda hingga
-              masa tua.
+              Sering disebut sebagai &quot;si pencuri penglihatan&quot;,
+              Glaukoma merusak saraf mata secara perlahan tanpa rasa sakit.
+              Pahami risikonya, lakukan skrining rutin, dan jaga kejernihan
+              pandangan Anda hingga masa tua.
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
-              <button className="bg-[#003461] text-white h-[60px] px-10 rounded-lg font-['Public_Sans'] font-bold text-lg flex items-center justify-center hover:bg-[#004B87] transition-all shadow-md">
+              <button className="bg-primary text-white h-15 px-10 rounded-lg font-['Public_Sans'] font-bold text-lg flex items-center justify-center hover:bg-primary-hover transition-all shadow-md">
                 Screening Sekarang
               </button>
-              <button className="border-2 border-[#003461] text-[#003461] h-[60px] px-10 rounded-lg font-['Public_Sans'] text-lg flex items-center justify-center hover:bg-slate-50 transition-all font-bold">
+              <button className="border-2 border-primary text-primary h-15 px-10 rounded-lg font-['Public_Sans'] text-lg flex items-center justify-center hover:bg-slate-50 transition-all font-bold">
                 Tentang Opsis
               </button>
             </div>
           </div>
           <div className="relative">
-            <div className="absolute -top-10 -right-10 w-64 h-64 bg-[#d3e4ff] opacity-30 rounded-full blur-3xl"></div>
+            <div className="absolute -top-10 -right-10 w-64 h-64 bg-accent opacity-30 rounded-full blur-3xl"></div>
             <div className="relative rounded-2xl overflow-hidden border-2 border-[#c2c6d1] shadow-2xl transform rotate-1">
               <img
                 alt="Pemeriksaan mata profesional di klinik Opsis"
-                className="w-full h-[480px] object-cover"
+                className="w-full h-120 object-cover"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPfIUP0pDx1zTspJvdHGDa9bfNbA3UmHuPXXSoE9LOUM-1ZO_1pnZ_yRF1-y8IRtR3wsmjXmK5ea4R2EtaMyn0RFtOQlf_HW4kSl9UFCkGG1_kYv2DtW6v9mmP59WV6r2RyDAQmtjk9srD1O-hMoJYMKYNwq7zPmhHSfUY4NauazvLMfmPloVneGteyWhHNHBXo-qlRfZHYm7sZS7Z-2mgm6XrOy55ja4I5IVxmLSY4sa8Fl-Fqv2tdiIrILYEHY3aTupTATtwmjmY"
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl border-2 border-slate-200 shadow-2xl max-w-[260px]">
+            <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl border-2 border-slate-200 shadow-2xl max-w-65">
               <div className="flex items-center gap-3 mb-2">
                 <span
                   className="material-symbols-outlined text-[#2c694e] text-3xl"
@@ -48,7 +47,7 @@ export default function Index() {
                 >
                   verified_user
                 </span>
-                <span className="font-['Public_Sans'] text-lg text-[#003461] font-bold">
+                <span className="font-['Public_Sans'] text-lg text-primary font-bold">
                   Presisi yang Mendampingi
                 </span>
               </div>
@@ -66,10 +65,10 @@ export default function Index() {
         aria-labelledby="understand-heading"
         className="py-24 bg-[#f6f3f2]"
       >
-        <div className="max-w-[1100px] mx-auto px-8">
+        <div className="max-w-275 mx-auto px-8">
           <div className="text-center mb-16">
             <h2
-              className="font-['Public_Sans'] font-bold text-[#003461] mb-4 text-3xl"
+              className="font-['Public_Sans'] font-bold text-primary mb-4 text-3xl"
               id="understand-heading"
             >
               Apa itu Glaukoma?
@@ -83,10 +82,10 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto">
             <div className="md:col-span-7 bg-white p-10 rounded-2xl border-2 border-[#c2c6d1] flex flex-col justify-between shadow-sm">
               <div>
-                <span className="material-symbols-outlined text-[#003461] text-4xl mb-4">
+                <span className="material-symbols-outlined text-primary text-4xl mb-4">
                   visibility
                 </span>
-                <h3 className="font-['Public_Sans'] text-2xl font-bold text-[#003461] mb-4">
+                <h3 className="font-['Public_Sans'] text-2xl font-bold text-primary mb-4">
                   Hubungan Saraf Optik
                 </h3>
                 <p className="font-['Lexend'] text-lg text-slate-700">
@@ -98,7 +97,7 @@ export default function Index() {
               </div>
               <div className="mt-8 grid grid-cols-2 gap-4">
                 <div className="bg-[#eae7e7] p-4 rounded-lg border border-slate-200">
-                  <span className="font-['Public_Sans'] block text-[#003461] font-bold">
+                  <span className="font-['Public_Sans'] block text-primary font-bold">
                     Tekanan
                   </span>
                   <span className="text-sm font-medium text-slate-600">
@@ -106,7 +105,7 @@ export default function Index() {
                   </span>
                 </div>
                 <div className="bg-[#eae7e7] p-4 rounded-lg border border-slate-200">
-                  <span className="font-['Public_Sans'] block text-[#003461] font-bold">
+                  <span className="font-['Public_Sans'] block text-primary font-bold">
                     Saraf
                   </span>
                   <span className="text-sm font-medium text-slate-600">
@@ -116,10 +115,10 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="md:col-span-5 bg-[#003461] text-white p-10 rounded-2xl flex flex-col justify-center relative overflow-hidden shadow-lg">
+            <div className="md:col-span-5 bg-primary text-white p-10 rounded-2xl flex flex-col justify-center relative overflow-hidden shadow-lg">
               <div className="relative z-10">
                 <h3 className="font-['Public_Sans'] font-bold text-2xl mb-4">
-                  Si "Pencuri" Penglihatan
+                  Si &quot;Pencuri&quot; Penglihatan
                 </h3>
                 <p className="font-['Lexend'] text-lg text-blue-50 mb-6 leading-relaxed">
                   Glaukoma jarang menunjukkan gejala sampai kehilangan
@@ -145,15 +144,15 @@ export default function Index() {
             </div>
 
             <div className="md:col-span-4 p-8 rounded-2xl flex flex-col justify-center items-center text-center shadow-sm bg-blue-50/50 border-[#c2c6d1] border-2">
-              <span className="text-5xl font-black text-[#003461]">80JT+</span>
+              <span className="text-5xl font-black text-primary">80JT+</span>
               <p className="font-['Public_Sans'] font-bold text-slate-700 mt-2">
                 Diagnosis Global
               </p>
             </div>
 
             <div className="md:col-span-8 bg-white border-2 border-[#c2c6d1] p-8 rounded-2xl flex flex-col md:flex-row items-center gap-8 shadow-sm">
-              <div className="flex-grow">
-                <h3 className="font-['Public_Sans'] font-bold text-2xl text-[#003461] mb-2">
+              <div className="grow">
+                <h3 className="font-['Public_Sans'] font-bold text-2xl text-primary mb-2">
                   Pencegahan &amp; Kontrol
                 </h3>
                 <p className="font-['Lexend'] text-lg text-slate-700">
@@ -162,8 +161,8 @@ export default function Index() {
                   rutin secara efektif menghentikan kerusakan lebih lanjut.
                 </p>
               </div>
-              <div className="w-24 h-24 bg-[#d3e4ff] rounded-full flex items-center justify-center shrink-0 border border-[#003461]/10">
-                <span className="material-symbols-outlined text-[#003461] text-4xl">
+              <div className="w-24 h-24 bg-accent rounded-full flex items-center justify-center shrink-0 border border-primary/10">
+                <span className="material-symbols-outlined text-primary text-4xl">
                   medical_services
                 </span>
               </div>
@@ -173,10 +172,10 @@ export default function Index() {
       </section>
 
       <section aria-labelledby="timing-heading" className="py-24 bg-white">
-        <div className="max-w-[1100px] mx-auto px-8 flex flex-col md:flex-row items-center gap-20">
+        <div className="max-w-275 mx-auto px-8 flex flex-col md:flex-row items-center gap-20">
           <div className="md:w-1/2 order-2 md:order-1">
             <div className="relative">
-              <div className="absolute inset-0 bg-[#003461] rounded-2xl transform -rotate-3 scale-100 opacity-5"></div>
+              <div className="absolute inset-0 bg-primary rounded-2xl transform -rotate-3 scale-100 opacity-5"></div>
               <div className="relative grid grid-cols-2 gap-4">
                 <img
                   alt="Diagnosis presisi di Opsis"
@@ -193,7 +192,7 @@ export default function Index() {
           </div>
           <div className="md:w-1/2 order-1 md:order-2">
             <h2
-              className="font-['Public_Sans'] font-bold text-[#003461] mb-6 text-3xl"
+              className="font-['Public_Sans'] font-bold text-primary mb-6 text-3xl"
               id="timing-heading"
             >
               Fitur Opsis
@@ -206,13 +205,13 @@ export default function Index() {
             </p>
             <ul className="space-y-8" role="list">
               <li className="flex gap-5">
-                <div className="w-14 h-14 rounded-full bg-[#d3e4ff] flex items-center justify-center shrink-0 border border-[#003461]/10">
-                  <span className="material-symbols-outlined text-[#003461] text-2xl">
+                <div className="w-14 h-14 rounded-full bg-accent flex items-center justify-center shrink-0 border border-primary/10">
+                  <span className="material-symbols-outlined text-primary text-2xl">
                     smart_toy
                   </span>
                 </div>
                 <div>
-                  <h4 className="font-['Public_Sans'] text-xl text-[#003461] font-bold">
+                  <h4 className="font-['Public_Sans'] text-xl text-primary font-bold">
                     Analisis Citra Deep Learning
                   </h4>
                   <p className="text-slate-700 mt-1">
@@ -223,13 +222,13 @@ export default function Index() {
                 </div>
               </li>
               <li className="flex gap-5">
-                <div className="w-14 h-14 rounded-full bg-[#d3e4ff] flex items-center justify-center shrink-0 border border-[#003461]/10">
-                  <span className="material-symbols-outlined text-[#003461] text-2xl">
+                <div className="w-14 h-14 rounded-full bg-accent flex items-center justify-center shrink-0 border border-primary/10">
+                  <span className="material-symbols-outlined text-primary text-2xl">
                     medication
                   </span>
                 </div>
                 <div>
-                  <h4 className="font-['Public_Sans'] text-xl text-[#003461] font-bold">
+                  <h4 className="font-['Public_Sans'] text-xl text-primary font-bold">
                     Screening Risiko Machine Learning
                   </h4>
                   <p className="text-slate-700 mt-1">
@@ -243,8 +242,8 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="py-24 bg-[#003461] text-white">
-        <div className="max-w-[1100px] mx-auto px-8 text-center">
+      <section className="py-24 bg-primary text-white">
+        <div className="max-w-275 mx-auto px-8 text-center">
           <h2 className="font-['Public_Sans'] font-bold mb-6 text-3xl">
             Visi Anda, Misi Kami
           </h2>
@@ -254,7 +253,7 @@ export default function Index() {
             Anda hari ini.
           </p>
           <div className="flex justify-center">
-            <button className="bg-white text-[#003461] px-10 py-4 rounded-lg font-bold text-lg hover:bg-slate-100 transition-all shadow-lg">
+            <button className="bg-white text-primary px-10 py-4 rounded-lg font-bold text-lg hover:bg-slate-100 transition-all shadow-lg">
               Daftar Sekarang
             </button>
           </div>
@@ -262,10 +261,10 @@ export default function Index() {
       </section>
 
       <section aria-labelledby="faq-heading" className="py-24 bg-white">
-        <div className="max-w-[800px] mx-auto px-8">
+        <div className="max-w-200 mx-auto px-8">
           <div className="text-center mb-16">
             <h2
-              className="font-['Public_Sans'] font-bold text-[#003461] mb-4 text-3xl"
+              className="font-['Public_Sans'] font-bold text-primary mb-4 text-3xl"
               id="faq-heading"
             >
               Pertanyaan yang Sering Diajukan
@@ -273,7 +272,7 @@ export default function Index() {
           </div>
           <div className="space-y-4">
             <details className="group border border-[#c2c6d1] bg-white rounded-xl overflow-hidden shadow-sm">
-              <summary className="flex justify-between items-center font-['Public_Sans'] font-bold text-lg cursor-pointer list-none p-6 text-[#003461] hover:bg-slate-50 transition-colors">
+              <summary className="flex justify-between items-center font-['Public_Sans'] font-bold text-lg cursor-pointer list-none p-6 text-primary hover:bg-slate-50 transition-colors">
                 <span>Apa itu Glaukoma?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
@@ -297,7 +296,7 @@ export default function Index() {
               </p>
             </details>
             <details className="group border border-[#c2c6d1] bg-white rounded-xl overflow-hidden shadow-sm">
-              <summary className="flex justify-between items-center font-['Public_Sans'] font-bold text-lg cursor-pointer list-none p-6 text-[#003461] hover:bg-slate-50 transition-colors">
+              <summary className="flex justify-between items-center font-['Public_Sans'] font-bold text-lg cursor-pointer list-none p-6 text-primary hover:bg-slate-50 transition-colors">
                 <span>Bagaimana Opsis membantu saya?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
@@ -321,7 +320,7 @@ export default function Index() {
               </p>
             </details>
             <details className="group border border-[#c2c6d1] bg-white rounded-xl overflow-hidden shadow-sm">
-              <summary className="flex justify-between items-center font-['Public_Sans'] font-bold text-lg cursor-pointer list-none p-6 text-[#003461] hover:bg-slate-50 transition-colors">
+              <summary className="flex justify-between items-center font-['Public_Sans'] font-bold text-lg cursor-pointer list-none p-6 text-primary hover:bg-slate-50 transition-colors">
                 <span>Apakah Opsis dapat menggantikan pemeriksaan dokter?</span>
                 <span className="transition group-open:rotate-180">
                   <svg

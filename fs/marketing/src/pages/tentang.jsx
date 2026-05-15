@@ -1,9 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
 export default function Tentang() {
   return (
-    <main className="flex-grow w-full max-w-[1100px] mx-auto px-6 md:px-8 py-12 space-y-16">
+    <main className="grow w-full max-w-275 mx-auto px-6 md:px-8 py-12 space-y-16">
       <section className="flex flex-col md:flex-row gap-12 items-center">
         <div className="w-full md:w-3/5 space-y-6">
           <h1 className="font-['Public_Sans'] text-4xl text-[#1c1b1b] font-bold">
@@ -16,7 +13,7 @@ export default function Tentang() {
             diakses dan dapat diandalkan bagi masyarakat luas.
           </p>
         </div>
-        <div className="w-full md:w-2/5 relative rounded-xl overflow-hidden border-2 border-[#dcd9d9] h-[300px] bg-[#f0eded]">
+        <div className="w-full md:w-2/5 relative rounded-xl overflow-hidden border-2 border-[#dcd9d9] h-75 bg-[#f0eded]">
           <img
             alt="abstract soft light"
             className="object-cover w-full h-full opacity-90"
@@ -30,7 +27,7 @@ export default function Tentang() {
           Misi Kami
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="md:col-span-3 bg-[#ffffff] border-2 border-[#dcd9d9] rounded-xl p-8 hover:border-[#003461] transition-colors focus-within:ring-4 focus-within:ring-[#003461]">
+          <div className="md:col-span-3 bg-[#ffffff] border-2 border-[#dcd9d9] rounded-xl p-8 hover:border-primary transition-colors focus-within:ring-4 focus-within:ring-primary">
             <p className="font-['Lexend'] text-xl text-[#1c1b1b]">
               Opsis hadir sebagai solusi komprehensif yang menjembatani
               kesenjangan akses terhadap perawatan glaukoma. Kami menggabungkan
@@ -39,8 +36,8 @@ export default function Tentang() {
             </p>
           </div>
 
-          <div className="bg-[#ffffff] border-2 border-[#dcd9d9] rounded-xl p-6 flex flex-col gap-4 hover:border-[#003461] transition-colors focus-within:ring-4 focus-within:ring-[#003461]">
-            <div className="w-12 h-12 bg-[#004b87] text-[#8abcff] rounded-full flex items-center justify-center border-2 border-[#d3e4ff]">
+          <div className="bg-[#ffffff] border-2 border-[#dcd9d9] rounded-xl p-6 flex flex-col gap-4 hover:border-primary transition-colors focus-within:ring-4 focus-within:ring-primary">
+            <div className="w-12 h-12 bg-primary-hover text-[#8abcff] rounded-full flex items-center justify-center border-2 border-accent">
               <span
                 className="material-symbols-outlined text-white"
                 style={{ fontVariationSettings: "'FILL' 1" }}
@@ -51,15 +48,15 @@ export default function Tentang() {
             <h3 className="font-['Public_Sans'] text-lg text-[#1c1b1b] font-semibold">
               Deep Learning
             </h3>
-            <p className="font-['Lexend'] text-[#424750] flex-grow">
+            <p className="font-['Lexend'] text-[#424750] grow">
               Menganalisis gambar mata untuk melakukan deteksi awal dan skrining
               risiko secara mandiri, memberikan wawasan cepat sebelum kunjungan
               klinis.
             </p>
           </div>
 
-          <div className="bg-[#ffffff] border-2 border-[#dcd9d9] rounded-xl p-6 flex flex-col gap-4 hover:border-[#003461] transition-colors focus-within:ring-4 focus-within:ring-[#003461]">
-            <div className="w-12 h-12 bg-[#004b87] text-[#8abcff] rounded-full flex items-center justify-center border-2 border-[#d3e4ff]">
+          <div className="bg-[#ffffff] border-2 border-[#dcd9d9] rounded-xl p-6 flex flex-col gap-4 hover:border-primary transition-colors focus-within:ring-4 focus-within:ring-primary">
+            <div className="w-12 h-12 bg-primary-hover text-[#8abcff] rounded-full flex items-center justify-center border-2 border-accent">
               <span
                 className="material-symbols-outlined text-white"
                 style={{ fontVariationSettings: "'FILL' 1" }}
@@ -70,14 +67,14 @@ export default function Tentang() {
             <h3 className="font-['Public_Sans'] text-lg text-[#1c1b1b] font-semibold">
               Kecerdasan Buatan (Gen AI)
             </h3>
-            <p className="font-['Lexend'] text-[#424750] flex-grow">
+            <p className="font-['Lexend'] text-[#424750] grow">
               Asisten virtual pintar yang siap menjawab pertanyaan seputar
               glaukoma, memberikan edukasi yang personal dan mudah dipahami.
             </p>
           </div>
 
-          <div className="bg-[#ffffff] border-2 border-[#dcd9d9] rounded-xl p-6 flex flex-col gap-4 hover:border-[#003461] transition-colors focus-within:ring-4 focus-within:ring-[#003461]">
-            <div className="w-12 h-12 bg-[#004b87] text-[#8abcff] rounded-full flex items-center justify-center border-2 border-[#d3e4ff]">
+          <div className="bg-[#ffffff] border-2 border-[#dcd9d9] rounded-xl p-6 flex flex-col gap-4 hover:border-primary transition-colors focus-within:ring-4 focus-within:ring-primary">
+            <div className="w-12 h-12 bg-primary-hover text-[#8abcff] rounded-full flex items-center justify-center border-2 border-accent">
               <span
                 className="material-symbols-outlined text-white"
                 style={{ fontVariationSettings: "'FILL' 1" }}
@@ -88,7 +85,7 @@ export default function Tentang() {
             <h3 className="font-['Public_Sans'] text-lg text-[#1c1b1b] font-semibold">
               Komunitas &amp; Pengingat
             </h3>
-            <p className="font-['Lexend'] text-[#424750] flex-grow">
+            <p className="font-['Lexend'] text-[#424750] grow">
               Fitur pengingat obat terintegrasi dan forum dukungan pasien untuk
               memastikan kedisiplinan pengobatan dan dukungan moral
               berkelanjutan.
@@ -102,9 +99,9 @@ export default function Tentang() {
           Ekosistem Platform
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-[#f6f3f2] border-2 border-[#dcd9d9] rounded-xl overflow-hidden focus-within:ring-4 focus-within:ring-[#003461]">
-            <div className="h-[160px] bg-[#dce3eb] flex items-center justify-center border-b-2 border-[#dcd9d9]">
-              <span className="material-symbols-outlined text-6xl text-[#003461]">
+          <div className="bg-[#f6f3f2] border-2 border-[#dcd9d9] rounded-xl overflow-hidden focus-within:ring-4 focus-within:ring-primary">
+            <div className="h-40 bg-[#dce3eb] flex items-center justify-center border-b-2 border-[#dcd9d9]">
+              <span className="material-symbols-outlined text-6xl text-primary">
                 menu_book
               </span>
             </div>
@@ -121,9 +118,9 @@ export default function Tentang() {
             </div>
           </div>
 
-          <div className="bg-[#f6f3f2] border-2 border-[#dcd9d9] rounded-xl overflow-hidden focus-within:ring-4 focus-within:ring-[#003461]">
-            <div className="h-[160px] bg-[#d3e4ff] flex items-center justify-center border-b-2 border-[#dcd9d9]">
-              <span className="material-symbols-outlined text-6xl text-[#003461]">
+          <div className="bg-[#f6f3f2] border-2 border-[#dcd9d9] rounded-xl overflow-hidden focus-within:ring-4 focus-within:ring-primary">
+            <div className="h-40 bg-accent flex items-center justify-center border-b-2 border-[#dcd9d9]">
+              <span className="material-symbols-outlined text-6xl text-primary">
                 health_metrics
               </span>
             </div>
