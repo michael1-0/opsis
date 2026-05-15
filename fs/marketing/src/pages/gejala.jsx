@@ -1,30 +1,27 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
 export default function Gejala() {
   return (
-    <main className="flex-grow">
-      <section className="max-w-[1100px] mx-auto px-8 pt-24 pb-20 text-center flex flex-col items-center">
-        <h1 className="font-['Public_Sans'] text-4xl text-[#003461] mb-6 max-w-3xl font-bold">
+    <main className="grow">
+      <section className="max-w-275 mx-auto px-8 pt-24 pb-20 text-center flex flex-col items-center">
+        <h1 className="font-['Public_Sans'] text-4xl text-primary mb-6 max-w-3xl font-bold">
           Mengenali Gejala Glaukoma
         </h1>
         <p className="font-['Lexend'] text-xl text-[#424750] max-w-2xl">
-          Sering disebut sebagai "pencuri penglihatan senyap", glaukoma kerap
+          Sering disebut sebagai {"pencuri penglihatan senyap"}, glaukoma kerap
           berkembang tanpa tanda peringatan awal. Memahami gejala yang mungkin
           timbul adalah langkah krusial dalam melindungi lapang pandang Anda.
         </p>
       </section>
 
       <section className="bg-[#f6f3f2] py-20">
-        <div className="max-w-[1100px] mx-auto px-8">
-          <h2 className="font-['Public_Sans'] text-3xl font-bold text-[#003461] mb-12 text-center">
+        <div className="max-w-275 mx-auto px-8">
+          <h2 className="font-['Public_Sans'] text-3xl font-bold text-primary mb-12 text-center">
             Gejala Umum yang Perlu Diwaspadai
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-[#ffffff] border-2 border-[#c2c6d1] rounded-xl p-8 flex flex-col items-start transition-colors duration-300 hover:border-[#003461]">
-              <div className="bg-[#d3e4ff] w-16 h-16 rounded-full flex items-center justify-center mb-6">
+            <div className="bg-[#ffffff] border-2 border-[#c2c6d1] rounded-xl p-8 flex flex-col items-start transition-colors duration-300 hover:border-primary">
+              <div className="bg-accent w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <span
-                  className="material-symbols-outlined text-[#003461] text-[32px]"
+                  className="material-symbols-outlined text-primary text-[32px]"
                   style={{ fontVariationSettings: "'FILL' 1" }}
                 >
                   visibility_off
@@ -40,10 +37,10 @@ export default function Gejala() {
               </p>
             </div>
 
-            <div className="bg-[#ffffff] border-2 border-[#c2c6d1] rounded-xl p-8 flex flex-col items-start transition-colors duration-300 hover:border-[#003461]">
-              <div className="bg-[#d3e4ff] w-16 h-16 rounded-full flex items-center justify-center mb-6">
+            <div className="bg-[#ffffff] border-2 border-[#c2c6d1] rounded-xl p-8 flex flex-col items-start transition-colors duration-300 hover:border-primary">
+              <div className="bg-accent w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <span
-                  className="material-symbols-outlined text-[#003461] text-[32px]"
+                  className="material-symbols-outlined text-primary text-[32px]"
                   style={{ fontVariationSettings: "'FILL' 1" }}
                 >
                   blur_on
@@ -59,7 +56,7 @@ export default function Gejala() {
               </p>
             </div>
 
-            <div className="bg-[#ffffff] border-2 border-[#c2c6d1] rounded-xl p-8 flex flex-col items-start transition-colors duration-300 hover:border-[#003461]">
+            <div className="bg-[#ffffff] border-2 border-[#c2c6d1] rounded-xl p-8 flex flex-col items-start transition-colors duration-300 hover:border-primary">
               <div className="bg-[#ffdad6] w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <span
                   className="material-symbols-outlined text-[#93000a] text-[32px]"
@@ -81,10 +78,10 @@ export default function Gejala() {
         </div>
       </section>
 
-      <section className="max-w-[1100px] mx-auto px-8 py-24">
+      <section className="max-w-275 mx-auto px-8 py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="flex flex-col gap-6">
-            <h2 className="font-['Public_Sans'] font-bold text-3xl text-[#003461]">
+            <h2 className="font-['Public_Sans'] font-bold text-3xl text-primary">
               Simulasi Perubahan Penglihatan
             </h2>
             <p className="font-['Lexend'] text-lg text-[#424750]">
@@ -102,8 +99,8 @@ export default function Gejala() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="flex flex-col gap-4">
               <div className="aspect-square bg-[#e5e2e1] rounded-xl border-2 border-[#c2c6d1] overflow-hidden relative flex items-center justify-center">
-                <div className="absolute inset-0 bg-gradient-to-tr from-[#d3e4ff] to-[#a3c9ff] opacity-60 mix-blend-multiply"></div>
-                <span className="material-symbols-outlined text-[#003461] text-[64px] z-10 opacity-30">
+                <div className="absolute inset-0 bg-linear-to-tr from-accent to-[#a3c9ff] opacity-60 mix-blend-multiply"></div>
+                <span className="material-symbols-outlined text-primary text-[64px] z-10 opacity-30">
                   landscape
                 </span>
               </div>
@@ -113,8 +110,8 @@ export default function Gejala() {
             </div>
             <div className="flex flex-col gap-4">
               <div className="aspect-square bg-[#e5e2e1] rounded-xl border-2 border-[#c2c6d1] overflow-hidden relative flex items-center justify-center shadow-[inset_0_0_60px_40px_rgba(28,27,27,0.8)]">
-                <div className="absolute inset-0 bg-gradient-to-tr from-[#d3e4ff] to-[#a3c9ff] opacity-60 mix-blend-multiply"></div>
-                <span className="material-symbols-outlined text-[#003461] text-[64px] z-10 opacity-30">
+                <div className="absolute inset-0 bg-linear-to-tr from-accent to-[#a3c9ff] opacity-60 mix-blend-multiply"></div>
+                <span className="material-symbols-outlined text-primary text-[64px] z-10 opacity-30">
                   landscape
                 </span>
               </div>
@@ -127,10 +124,10 @@ export default function Gejala() {
       </section>
 
       <section className="bg-[#a3c9ff] py-20">
-        <div className="max-w-[1100px] mx-auto px-8">
+        <div className="max-w-275 mx-auto px-8">
           <div className="bg-[#fcf9f8] rounded-xl p-12 border-2 border-[#c2c6d1] shadow-sm flex flex-col md:flex-row gap-12 items-start">
             <div className="md:w-1/3">
-              <h2 className="font-['Public_Sans'] font-bold text-3xl text-[#003461] mb-4">
+              <h2 className="font-['Public_Sans'] font-bold text-3xl text-primary mb-4">
                 Mengapa Deteksi Dini Penting?
               </h2>
               <p className="font-['Lexend'] text-lg text-[#424750]">
@@ -142,7 +139,7 @@ export default function Gejala() {
             <div className="md:w-2/3 flex flex-col gap-8 w-full">
               <div className="flex items-start gap-6 bg-[#ffffff] p-6 rounded-lg border-2 border-[#c2c6d1]">
                 <span
-                  className="material-symbols-outlined text-[#003461] text-[32px] mt-1"
+                  className="material-symbols-outlined text-primary text-[32px] mt-1"
                   style={{ fontVariationSettings: "'FILL' 1" }}
                 >
                   shield
@@ -159,7 +156,7 @@ export default function Gejala() {
               </div>
               <div className="flex items-start gap-6 bg-[#ffffff] p-6 rounded-lg border-2 border-[#c2c6d1]">
                 <span
-                  className="material-symbols-outlined text-[#003461] text-[32px] mt-1"
+                  className="material-symbols-outlined text-primary text-[32px] mt-1"
                   style={{ fontVariationSettings: "'FILL' 1" }}
                 >
                   update
@@ -176,7 +173,7 @@ export default function Gejala() {
               </div>
               <div className="flex items-start gap-6 bg-[#ffffff] p-6 rounded-lg border-2 border-[#c2c6d1]">
                 <span
-                  className="material-symbols-outlined text-[#003461] text-[32px] mt-1"
+                  className="material-symbols-outlined text-primary text-[32px] mt-1"
                   style={{ fontVariationSettings: "'FILL' 1" }}
                 >
                   health_and_safety

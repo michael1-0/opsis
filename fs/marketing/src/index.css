@@ -11,6 +11,6 @@
 
 @layer base {
   body {
-    @apply bg-[#fcf9f8] text-[#1c1b1b] antialiased selection:bg-[#d3e4ff] font-lexend;
+    @apply bg-[#fcf9f8] text-[#1c1b1b] antialiased selection:bg-accent font-lexend;
   }
 }
