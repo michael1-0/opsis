@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import  { Suspense } from "react";
 import { Outlet, NavLink, Link } from "react-router-dom";
 import { Head } from "vite-react-ssg";
 
