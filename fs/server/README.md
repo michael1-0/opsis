@@ -19,7 +19,7 @@ Ini adalah backend server untuk proyek Opsis, dibangun menggunakan Express dan P
 3.  Push ke DB:
 
     ```bash
-    npx prisma migrate dev
+    npx prisma db push
     ```
 
 4.  Generate Prisma Client:
